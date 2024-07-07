@@ -1,5 +1,9 @@
 * {
+
+    box-sizing: border-box;
+
   box-sizing: border-box;
+
 }
 
 h1,
@@ -9,28 +13,36 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  padding: 0;
+
+    margin: 0;
+    padding: 0;
 }
 
-ol,
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+    font-style: normal;
 }
 
 img {
-  display: block;
+    display: block;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.container-footer {}
 
 .header {
   background-color: #06071b;
@@ -138,4 +150,86 @@ justify-content: center;
 
 .features-deskr {
   max-width: 225px;
+}
+
+.footer {
+    background: #06071b;
+}
+
+
+
+
+.footer-name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.footer-contacts {
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 80px;
+}
+
+.footer-text {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-list {
+    display: flex;
+    gap: 14px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.footer-list-item {}
+
+.footer-link {}
+
+.footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.contacts-list-item {}
+
+.contacts-list-link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.footer-button {
+    display: block;
+    background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    border-radius: 5px;
+    width: 181px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 38px;
+    margin-left: auto;
+}
+
+.footer-coyright {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 100px;
 }
