@@ -272,83 +272,109 @@ body {
 }
 
 /* --------------------------------------------------------- */
-.footer {
-  background: #06071b;
+
+.footer-page {
+  padding-top: 80px;
+  background-color: #06071b;
+  color: #ffffff;
 }
 
-.footer-name {
+.footer-title {
   font-weight: 700;
   font-size: 24px;
-  color: #fff;
   text-align: center;
-  padding-top: 80px;
+  margin-bottom: 80px;
 }
 
-.footer-contacts {
+.footer-subtitle {
   font-weight: 500;
   font-size: 24px;
-  color: #fff;
-  margin-left: 16px;
-  margin-top: 80px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer-text {
-  width: 500px;
-  margin-top: 20px;
-  margin-left: 16px;
   font-weight: 500;
   font-size: 16px;
-  color: #fff;
+  text-align: center;
+  max-width: 500px;
 }
 
-.footer-list {
+.footer-down {
+  border-top: 1px solid #fff;
+  padding-top: 22px;
+  padding-left: 16px;
+  padding-bottom: 21px;
+}
+.footer-link-list {
   display: flex;
   gap: 14px;
-  margin-left: 16px;
-  margin-top: 20px;
 }
 
-.footer-list-item {
-}
-
-.footer-link {
-}
-
-.footer-contacts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-left: 16px;
-  margin-top: 20px;
-}
-
-.contacts-list-item {
-}
-
-.contacts-list-link {
+.address-item {
   display: block;
-  font-weight: 500;
-  font-size: 16px;
+  padding-bottom: 12px;
   color: #fff;
 }
 
-.footer-button {
-  display: block;
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+.btn-footer {
+  border: none;
   border-radius: 5px;
-  width: 181px;
-  height: 42px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  padding: 12px 59px 11px 59px;
+  margin-bottom: 79px;
   font-weight: 700;
   font-size: 16px;
-  color: #fff;
-  margin-top: 38px;
   margin-left: auto;
+  display: block;
+  cursor: pointer;
+  color: #fff;
+}
+.footer-form {
+  margin-bottom: 20px;
+}
+.footer-contact-box {
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.footer-coyright {
+.footer-list-input {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+.footer-list {
+}
+.footer-input {
+  border: 0;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 8px;
+  color: #000;
+}
+.footer-form-text {
+  width: 100%;
+  height: 162px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 12px 8px;
+  color: #000;
+}
+
+.footer-form-text::placeholder,
+.footer-input::placeholder {
   font-weight: 500;
   font-size: 14px;
-  color: #fff;
-  margin-left: 16px;
-  margin-top: 100px;
+  color: #939eac;
 }
