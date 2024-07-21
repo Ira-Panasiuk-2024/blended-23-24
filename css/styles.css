@@ -378,3 +378,96 @@ body {
   font-size: 14px;
   color: #939eac;
 }
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(118, 239, 211, 0.5);
+  opacity: 1;
+  position: fixed;
+  top:0;
+  left:0;
+
+}
+  .modal {
+    background-color: #06071b;
+    width: 568px;
+    min-height: 936px;
+    border-radius: 4px;
+    padding: 32px 40px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+  }
+    .modal-text {
+      max-width: 448px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      margin-bottom: 52px;
+    }
+  
+    .modal-box {
+      display: flex;
+    }
+  
+    .list-text {
+      font-weight: 400;
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+  
+    .text-accent {
+      font-weight: 400;
+      font-size: 12px;
+      color: #1ab9fd;
+    }
+  
+    .download-btn {
+      border-radius: 5px;
+      width: 200px;
+      height: 42px;
+      background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+      font-weight: 700;
+      font-size: 16px;
+      color:#fff;
+      border: none;
+      margin: 0 auto;
+      display: block;
+    }
+    .modal-list {
+      margin-right: 54px;
+      position: relative;
+    }
+        .modal-list::after {
+          content:"";
+          width: 236px;
+          height: 2px;
+          background-color: rgba(118, 239, 211, 0.5);
+          position:absolute;
+          transform: rotate(-90deg);
+          top:50%;
+          left: 90px;
+        }
+        .modal-icons {
+          fill: #fff;
+          width: 28px;
+          height: 28px;
+          margin-right: 8px;
+        }
+        .modal-list-item {
+          display: flex;
+          margin-left: 8px;
+          margin-bottom: 20px;
+        }
+        .modal-box {
+          border-radius: 6px;
+            width: 488px;
+            height: 236px;
+            border: 2px solid rgba(118, 239, 211, 0.5);
+            padding: 20px;
+            margin-bottom: 32px;
+        }
