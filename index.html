@@ -3,31 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Mobile App Prototype</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">Mobileapp</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">HOME</a>
-          </li>
-          <li>
-            <a href="">FEATURES</a>
-          </li>
-          <li>
-            <a href="">TEAM</a>
-          </li>
 
-          <li>
-            <a href="">TESTIMONIALS</a>
-          </li>
-          <li>
-            <a href="">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-box">
+        <a href="./index.html" class="header-logo">Mobileapp</a>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link">HOME</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">FEATURES</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">TEAM</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">TESTIMONIALS</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section>
@@ -48,71 +64,78 @@
         <img src="./images/mobile.png" alt="Mobileapp" />
       </section>
 
-      <section>
-        <h2>KEY FEATURES</h2>
-        <p>
-          Get the best mobile experience with our Mobileapp. With a
-          user-friendly interface, personalized recommendations, secure
-          transactions, and real-time updates, our app offers everything you
-          need to stay connected and productive
-        </p>
-        <ul>
-          <li>
-            <h3>User-Friendly Interface:</h3>
-            <p>
-              Intuitive and easy-to-navigate interface designed to provide a
-              seamless mobile experience for users.
-            </p>
-          </li>
-          <li>
-            <h3>Personalized Recommendations:</h3>
-            <p>
-              The app provides personalized recommendations based on user
-              preferences and behavior, allowing for more relevant content and a
-              more engaging experience.
-            </p>
-          </li>
-          <li>
-            <h3>Real-Time Updates:</h3>
-            <p>
-              Users receive real-time updates and notifications to stay informed
-              on important news and events, and to stay up-to-date with changes
-              to the app.
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/frame-74.jpg"
-          alt="Frame 74"
-          width="396"
-          height="596"
-        />
-        <ul>
-          <li>
-            <h3>Integration with Other Apps:</h3>
-            <p>
-              The app integrates with other popular apps, making it easy for
-              users to connect with their social media accounts, or to easily
-              make in-app purchases using their preferred payment method.
-            </p>
-          </li>
-          <li>
-            <h3>Multi-Language Support:</h3>
-            <p>
-              The app is designed to be accessible to users all around the
-              world, with support for multiple languages, making it easier for
-              people to use the app in their native language.
-            </p>
-          </li>
-          <li>
-            <h3>Offline Capabilities:</h3>
-            <p>
-              The app offers offline capabilities, allowing users to access
-              certain features and content even when they are not connected to
-              the internet.
-            </p>
-          </li>
-        </ul>
+      <section class="features">
+        <div class="container">
+          <h2 class="features-tytle">KEY FEATURES</h2>
+          <p class="features-subtytle-title-item">
+            Get the best mobile experience with our Mobileapp. With a
+            user-friendly interface, personalized recommendations, secure
+            transactions, and real-time updates, our app offers everything you
+            need to stay connected and productive
+          </p>
+          <div class="features-box">
+            <ul class="features-list">
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">User-Friendly Interface:</h3>
+                <p class="features-subtytle-item">
+                  Intuitive and easy-to-navigate interface designed to provide a
+                  seamless mobile experience for users.
+                </p>
+              </li>
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">
+                  Personalized<br />
+                  Recommendations:
+                </h3>
+                <p class="features-subtytle-item">
+                  The app provides personalized recommendations based on user
+                  preferences and behavior, allowing for more relevant content
+                  and a more engaging experience.
+                </p>
+              </li>
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">Real-Time Updates:</h3>
+                <p class="features-subtytle-item">
+                  Users receive real-time updates and notifications to stay
+                  informed on important news and events, and to stay up-to-date
+                  with changes to the app.
+                </p>
+              </li>
+            </ul>
+
+            <img src="./images/frame-74.jpg" alt="74" width="396" />
+
+            <ul class="features-list-seconde">
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">
+                  Integration with Other Apps:
+                </h3>
+                <p class="features-subtytle-item features-deskr">
+                  The app integrates with other popular apps, making it easy for
+                  users to connect with their social media accounts, or to
+                  easily make in-app purchases using their preferred payment
+                  method.
+                </p>
+              </li>
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">Multi-Language Support:</h3>
+                <p class="features-subtytle-item">
+                  The app is designed to be accessible to users all around the
+                  world, with support for multiple languages, making it easier
+                  for people to use the app in their native language.
+                </p>
+              </li>
+              <li class="features-list-item">
+                <h3 class="features-tytle-item">Offline Capabilities:</h3>
+                <p class="features-subtytle-item">
+                  The app offers offline capabilities, allowing users to access
+                  certain features and content even when they are not connected
+                  to the internet.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section>
         <h2>WATCH THE VIDEO</h2>
@@ -204,55 +227,66 @@
         </ul>
       </section>
 
-      <section>
-        <h2>WHAT OUR COSTUMER’S SAY</h2>
-        <img src="./images/jon.png" alt="Jon Doe" />
-        <h3>Jon Doe</h3>
-        <p>Company Inc.</p>
-        <p>
-          I've been using this app for a few weeks now and I have to say, I'm
-          really impressed. It's so easy to use and the personalized
-          recommendations are spot-on. Plus, the transactions are secure and the
-          updates are always timely. I would definitely recommend this app to
-          anyone looking for a better mobile experience.
-        </p>
+      <section class="coctumers">
+        <div class="contaigner coctumers-contaigner">
+          <h2 class="coctumers-title">WHAT OUR COSTUMER’S SAY</h2>
+          <img class="coctumers-imag" src="./images/jon.png" alt="Jon Doe" />
+          <h3 class="coctumers-subtitles">Jon Doe</h3>
+          <p class="coctumers-company">Company Inc.</p>
+          <p class="coctumers-text">
+            I've been using this app for a few weeks now and I have to say, I'm
+            really impressed. It's so easy to use and the personalized
+            recommendations are spot-on. Plus, the transactions are secure and
+            the updates are always timely. I would definitely recommend this app
+            to anyone looking for a better mobile experience.
+          </p>
+        </div>
       </section>
     </main>
-    <footer>
-      <h2>CONTACT US</h2>
-      <h3>Get in touch with us</h3>
-      <p>
-        Have a question or comment about our app? Get in touch with us using the
-        contact form below and our team will respond shortly.
-      </p>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/"
-            ><img src="./images/Group 422-min.png" alt="facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="https://x.com/"
-            ><img src="./images/Group 430-min.png" alt="twitter"
-          /></a>
-        </li>
-        <li>
-          <a href="https://ua.linkedin.com/"
-            ><img src="./images/Group 433-min.png" alt="linkedin"
-          /></a>
-        </li>
-      </ul>
-      <address>
-        <ul>
-          <li>
-            <a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a>
+    <footer class="footer">
+      <div class="container container-footer">
+        <h2 class="footer-name">CONTACT US</h2>
+        <h3 class="footer-contacts">Get in touch with us</h3>
+        <p class="footer-text">
+          Have a question or comment about our app? Get in touch with us using
+          the contact form below and our team will respond shortly.
+        </p>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="https://www.facebook.com/"
+              ><img src="./images/Group 422-min.png" alt="facebook"
+            /></a>
           </li>
-          <li>
-            <a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a>
+          <li class="footer-list-item">
+            <a class="footer-link" href="https://x.com/"
+              ><img src="./images/Group 430-min.png" alt="twitter"
+            /></a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link" href="https://ua.linkedin.com/"
+              ><img src="./images/Group 433-min.png" alt="linkedin"
+            /></a>
           </li>
         </ul>
-      </address>
-      <button type="button">SUBMIT</button>
+        <address>
+          <ul class="footer-contacts-list">
+            <li class="contacts-list-item">
+              <a class="contacts-list-link" href="tel:+xxxxxxxxxxxx"
+                >+xx-xxxx-xxxx-xx</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <a class="contacts-list-link" href="mailto:goIteens@gmail.com"
+                >goIteens@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button class="footer-button" type="button">SUBMIT</button>
+        <p class="footer-coyright">
+          © 2019 GoIteens Template. All Rights Reserved
+        </p>
+      </div>
     </footer>
   </body>
 </html>
