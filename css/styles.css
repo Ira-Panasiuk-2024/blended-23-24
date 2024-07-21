@@ -272,6 +272,7 @@ body {
 }
 
 /* --------------------------------------------------------- */
+
 .footer-page {
   padding-top: 80px;
   background-color: #06071b;
@@ -376,4 +377,84 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #939eac;
+
+.footer {
+  background: #06071b;
+}
+
+.footer-name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.footer-contacts {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  margin-left: 16px;
+  margin-top: 80px;
+}
+
+.footer-text {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-list {
+  display: flex;
+  gap: 14px;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.footer-list-item {
+}
+
+.footer-link {
+}
+
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.contacts-list-item {
+}
+
+.contacts-list-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-button {
+  display: block;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  border-radius: 5px;
+  width: 181px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 38px;
+  margin-left: auto;
+}
+
+.footer-coyright {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 16px;
+  margin-top: 100px;
 }
